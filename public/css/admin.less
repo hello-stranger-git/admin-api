@@ -1,0 +1,42 @@
+.loginBox{
+    width: 400px;
+    height: 200px;
+    background-color:#ccc;
+    margin: 150px auto;
+    box-shadow: 2px 9px 5px #888888;
+    border-radius: 10px;
+    h2{
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .login{
+        text-align: center;
+        input{
+            background-color: #e9e8e8;
+            border-radius: 5px;
+            border:1px solid #8a8a8a;
+        }
+    }
+}
+.submit-btn{
+    background-color: #dfdfdf;
+}
+form{
+    input{
+        margin-left: 10px;
+    }
+    div{
+        margin-top: 10px;
+        &:nth-child(2){
+            padding-left: 12px;
+        }
+    }
+}
+@media screen and (max-width:767px){
+    .loginBox{
+        width: 300px;
+        margin-top: 150px;
+    }
+}

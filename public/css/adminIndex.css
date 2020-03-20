@@ -1,0 +1,71 @@
+all {
+  position: relative;
+}
+body {
+  height: 100%;
+}
+header {
+  height: 50px;
+  background-color: steelblue;
+}
+header img {
+  margin: 8px 10px;
+}
+.header-r {
+  float: right;
+  text-align: right;
+}
+.header-r .tx {
+  border-radius: 20px;
+}
+.header-r li {
+  margin: 0 25px 0 10px;
+}
+aside {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: teal;
+}
+aside ul {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+aside ul li {
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+aside ul li a {
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+aside ul li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+aside ul li a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+aside ul li a:active {
+  text-decoration: none;
+  color: #fff;
+}
+aside ul li a:focus {
+  text-decoration: none;
+  color: #fff;
+}
+aside ul li:hover {
+  background-color: #315a7d;
+}
+.main {
+  padding-left: 200px;
+  height: 60px;
+  background-color: #ccc;
+}
